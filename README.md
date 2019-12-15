@@ -1,33 +1,33 @@
 # dotfiles
 my dotfiles for a general development setup for UNIX systems. This workflow promotes a keyboard/shortcut focused workflow to maximize ergonomics abd productivity.
 
-## Sections
+# Sections
 <!--ts-->
-- [The Terminal](#the-terminal)
+- [Terminal](#terminal)
     - [kitty](#kitty)
     - [zsh](#zsh)
-- [The Tools](#the-tools)
+- [Tools](#tools)
     - [vim](#vim)
     - [emacs](#emacs)
-- [The System](#the-system)
+- [System](#system)
     - [bspwm](#bspwm)
     - [sxhkd](#sxhkd)
-- [Aesthetics](#Aesthetics)
+- [Aesthetics](#aesthetics)
     - [Fonts](#Fonts)
     - [Colorschemes](#Colorschemes)
 <!--te-->
 
 
 
-## The Terminal
-### kitty
-### zsh
-## The Tools
-### vim
-### emacs
-## The System
-### bspwm
-### sxhkd
-## Aesthetics
-### Fonts
-### Colorschemes
+# Terminal
+## kitty
+## zsh
+# Tools
+## vim
+## emacs
+# System
+## bspwm
+## sxhkd
+# Aesthetics
+## Fonts
+## Colorschemes
