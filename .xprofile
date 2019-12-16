@@ -1,0 +1,11 @@
+#!/usr/bin/env sh
+
+# This file runs when a DM logs you into a graphical session.
+# If you use startx/xinit, this file will also be sourced.
+
+sxhkd & sxhkd for binding keys
+vmware-user & # This is for only if you are using vmware to support shared clipboards
+dunst & # dunst for notifications
+xcompmgr & # xcompmgr for transparency effects
+udiskie & # udiskie for automounting
+"$HOME/.config/polybar/launch.sh" & # Runs polybar status bar
