@@ -1,5 +1,6 @@
 # dotfiles
 my dotfiles for a general development setup for UNIX systems. This workflow features completely modular setup that promotes a keyboard/shortcut focused workflow to maximize ergonomics and productivity.
+
 ![screenshot](screenshot.png)
 
 # Sections
@@ -33,7 +34,7 @@ bspwm is simply, a pure window manager. Nothing more. it tiles and stacks window
 sxhkd, or also known as the simple X hotkey daemon is responsible for binding keys to run POSIX compliant commands. It works, and it's independent from any graphical environments. This essentially offers users to "universally" bind keys on their system.
 # Aesthetics
 ## Fonts
-It's generally a good idea to choose a mono-font with good unicode support. It's generally a good idea to choose something like [firacode](https://github.com/tonsky/FiraCode) but I generally like to use [Anonymous Pro](https://fonts.google.com/specimen/Anonymous+Pro) because it looks nice and I have been using it for a long time (plus, Anonymous Pro make it easy to differentiate l(L) and 1(one)).
+It's generally a good idea to choose a mono-font with good unicode support. It's generally a good idea to choose something like [firacode](https://github.com/tonsky/FiraCode) but I generally like to use [Anonymous Pro](https://fonts.google.com/specimen/Anonymous+Pro) because it looks nice and I have been using it for a long time (plus, Anonymous Pro make it easy to differentiate l and 1).
 ## Colorschemes
 For those who sit and code for long intervals of time, it is picking a soothing color-scheme can really save your eyes from unnecessary eyestrain. As someone who sometimes codes in brightly lit places (like in school and other public places), it is also good to have a complementary light theme with your preferred dark theme. For my needs, I find the [Solarized](https://github.com/altercation/solarized) theme to do the job beautifully.
 
