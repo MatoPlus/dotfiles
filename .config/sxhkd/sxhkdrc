@@ -10,6 +10,10 @@ super + Return
 super + a ; {e,b}
     {$EDITOR,$BROWSER}
 
+# common terminal application launcher
+super + a; t; {h,r}
+    $TERMINAL --detach {htop,ranger} # Note that the appropriate flags differ for each terminal emulator
+
 # program launcher
 super + @space
     rofi -show run
