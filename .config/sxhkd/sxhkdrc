@@ -131,3 +131,7 @@ super + alt + shift + {h,j,k,l}
 # move a floating window
 super + {Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
+
+# toggle window gap
+super + alt + g
+    if [ "$(bspc config window_gap)"  -eq 0 ]; then bspc config window_gap 12; else bspc config window_gap 0; fi
